@@ -2,6 +2,9 @@
 
 # Basic Stuff
 
+## RPi-GoogleDrive
+This one took me quite a qhile to figure out. RPi-Googledrive gets you a live google drive directory on your pi. Go over to [rpi-Googledrive](https://github.com/programmer2514/RPi-Google-Drive).
+
 ## usbmount
 usb drives are only mounted at boot time. usbmount automatically mounts usb drives under /media/usb*. install it via shell
 ```
