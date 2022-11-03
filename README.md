@@ -29,7 +29,7 @@ Install docker and docker-compose utility via the guide on [docker site](https:/
 ## Web Hosting
 
 ### lemp wordpress script
-Lemp for pi consists of nginx webserver, mariadb, php. Before installing nginx you might want to make sure that `apache2`is uninstalled. Install a lemp wordpress stack with this [script](https://github.com/devskale/scripts/blob/main/lemp_wp_install.sh).
+Lemp for pi consists of nginx webserver, mariadb, php. Before installing nginx you might want to make sure that `apache2`is uninstalled via `sudo apt remove apache2`. Install a lemp wordpress stack with this [script](https://github.com/devskale/scripts/blob/main/lemp_wp_install.sh).
 
 ### lemp wordpress on docker
 ### grav cms
