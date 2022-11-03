@@ -51,3 +51,5 @@ sudo ./setup.sh
 ```
 and access it on standard port 10000 with eg http://raspberrypi.local:10000
 
+## Media
+### photoprism
