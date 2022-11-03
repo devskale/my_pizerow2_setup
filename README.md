@@ -4,6 +4,8 @@ I run the PiZeroW2 in headless mode. So basically all installation guides are ma
 
 ## Basic Stuff
 
+### noip2
+
 ### GIT
 
 ### python
