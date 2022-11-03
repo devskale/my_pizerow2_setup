@@ -1,11 +1,11 @@
-# my_pizerow2_setup
+# woodmastr's Raspberry Pi Zero W 2 Setup
 
-# Basic Stuff
+## Basic Stuff
 
-## RPi-GoogleDrive
+### RPi-GoogleDrive
 This one took me quite a qhile to figure out. RPi-Googledrive gets you a live google drive directory on your pi. Go over to [rpi-Googledrive](https://github.com/programmer2514/RPi-Google-Drive).
 
-## usbmount
+### usbmount
 usb drives are only mounted at boot time. usbmount automatically mounts usb drives under /media/usb*. install it via shell
 ```
 sudo apt install usbmount # install usb 
@@ -18,16 +18,16 @@ sudo service systemd-udevd restart
 ```
 .
 
-## Docker
+### Docker
 Install docker and docker-compose utility via the guide on [docker site](https://docs.docker.com/engine/install/debian/#install-using-the-repository) itself.
 
-# Web Hosting
+## Web Hosting
 
-## lemp wordpress
-## lemp wordpress on docker
-## grav cms
-## ghost cms
-## webmin
+### lemp wordpress
+### lemp wordpress on docker
+### grav cms
+### ghost cms
+### webmin
 Webmin is a web-based interface for system administration for Unix. Using any modern web browser, you can setup user accounts, Apache, DNS, file sharing and much more. Webmin lets you manage a system from the console or remotely. Install it with
 
 ```
