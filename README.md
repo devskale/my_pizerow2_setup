@@ -4,6 +4,10 @@ I run the PiZeroW2 in headless mode. So basically all installation guides are ma
 
 ## Basic Stuff
 
+### GIT
+
+### python
+
 ### RPi-GoogleDrive
 This one took me quite a qhile to figure out. RPi-Googledrive gets you a live google drive directory on your pi. Go over to [rpi-Googledrive](https://github.com/programmer2514/RPi-Google-Drive).
 
