@@ -4,7 +4,8 @@ I run the PiZeroW2 in headless mode. So basically all installation guides are ma
 
 ## Basic Stuff
 
-### noip2
+### noip3
+No-Ip Updater
 Update Script for [noip3](https://www.noip.com/support/knowledgebase/install-linux-3-x-dynamic-update-client-duc/)
 ```
 #!/bin/bash
@@ -20,6 +21,16 @@ noip-duc -u $U -p $P --hostnames $HOSTNAMES --once
 ### GIT
 
 ### python
+
+### Samba
+Start samba with
+```sudo service smbd status```
+
+### VNC
+Start VNC with 
+```vncserver-virtual :1```
+connect to vnc with 
+
 
 ### RPi-GoogleDrive
 This one took me quite a qhile to figure out. RPi-Googledrive gets you a live google drive directory on your pi. Go over to [rpi-Googledrive](https://github.com/programmer2514/RPi-Google-Drive).
