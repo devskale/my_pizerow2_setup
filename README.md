@@ -5,6 +5,17 @@ I run the PiZeroW2 in headless mode. So basically all installation guides are ma
 ## Basic Stuff
 
 ### noip2
+Update Script for [noip3](https://www.noip.com/support/knowledgebase/install-linux-3-x-dynamic-update-client-duc/)
+```
+#!/bin/bash
+
+U=woodmastr
+P=snrflw21
+HOSTNAMES=amd2.ddns.net
+
+#echo "noip-duc -u $U -p $P --hostnames $HOSTNAMES --once"
+noip-duc -u $U -p $P --hostnames $HOSTNAMES --once
+```
 
 ### GIT
 
